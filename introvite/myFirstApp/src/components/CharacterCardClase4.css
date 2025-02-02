@@ -1,0 +1,230 @@
+/* .character-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .character-image {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  } */
+
+  
+  /* body {
+    background-color: #181818;
+    color: #fff; 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    grid-gap: 20px;
+  }
+  
+  .character-card {
+    background-color: #32CD32; 
+    border: 1px solid #228B22;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .character-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .character-status {
+    background-color: #228B22;
+    color: #fff; 
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  } */
+
+  
+
+  /* .character-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 10px;
+  } */
+  
+  /* .character-card {
+    background-color: #32CD32;
+    border: 2px solid #228B22;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  /* .character-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .character-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #070606;
+    margin-bottom: 5px;
+  }
+  
+  .character-status {
+    background-color: #228B22;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+  } */
+
+
+  /* body {
+    background-color: #181818;
+    color: #fff; 
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .character-card {
+    background-color: #32CD32;
+    border: 2px solid #228B22; 
+    border-radius: 15px;
+    padding: 10px; 
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px; 
+    width: 200px; 
+}
+
+.character-card img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.character-card h3 {
+    margin-top: 0; 
+    margin-bottom: 5px;
+}
+
+.character-card p {
+    margin-bottom: 0;
+} */
+
+/* styles.css o App.css (donde tengas tus estilos globales) */
+
+
+body {
+  background-color: #181818;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  justify-content: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.app-title { 
+  margin-bottom: 20px;
+  
+}
+
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.character-card {
+  background-color: #32CD32;
+  border: 2px solid #228B22;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+.character-card img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.character-card h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.character-card p {
+  margin-bottom: 0;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-link {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #555;
+  margin: 0 5px;
+}
+
+.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
